@@ -1,0 +1,19 @@
+{
+  "name": "mern-task-manager-root",
+  "version": "1.0.0",
+  "description": "Root orchestrator for MERN Task Management Application",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "express",
+    "react",
+    "mongodb",
+    "tailwind"
+  ],
+  "author": "Google DeepMind Advanced Agentic Coding"
+}
